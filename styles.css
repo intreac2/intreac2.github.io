@@ -109,9 +109,10 @@ background: #002356
 .notice img{
 	width:1000px;
 	margin-top:50px;
+	float:left;
 }
 .notice h4{
-	margin-top:20px;
+	margin-top:50px;
 	float:left;
 	color:white;
 	font-size:25px
@@ -134,7 +135,7 @@ background: #002356
 .footer ul{
 	list-style: none;
 	line-height: 30px;
-	margin-left:0%}
+	margin-left:-10%}
 .footer ul li{
 	display:inline-block;
 }
@@ -144,20 +145,25 @@ background: #002356
 	display:block;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:15px;
-	transition-duration: 0.4s;}
+	transition-duration: 0.4s;
+	margin-left:-50%;
+}
 .footer ul li a:hover{
 	color: black}
 .hop-logo1{
-	margin-top:20px;
+	margin-top:130px;
 	width:90px;
+	height:90px;
 	background:none;
 }
 .hop-logo1 img{
 	width:120px;
+	margin-top:30px;
 }
 .hop-logo2 img{
 	width:80px;
 	float:left;
+	margin-top: 120px;
 }
 .hop-logo3 img{
 	width:50px;
@@ -166,7 +172,7 @@ background: #002356
 .hop-logo3 ul{
 	list-style: none;
 	line-height: 30px;
-	margin-top:-25%}
+	margin-top:20px}
 .hop-logo3 ul li{
 	display:inline-block;
 	float:right;
@@ -177,13 +183,17 @@ background: #002356
 	display:block;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:15px;
-	transition-duration: 0.3s;}
+	transition-duration: 0.3s;
+	margin-top:80px;
+}
 .hop-logo3 ul li a:hover{
 	color: black}
-.fb img{
+#fblogo img{
 	width:50px;
 	margin-left:950%;
+	margin-top:30px;
 }
-.fb{
+#fblogo{
 	width:90px;
-	margin-top:-7%}
+	height:90px;
+	margin-top:400;}
