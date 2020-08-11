@@ -1,0 +1,189 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+background: #002356
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Recursive', sans-serif;
+}
+.header{
+	width:1000px;
+	height:195px;
+}
+
+.logo{ 
+	width: 1000px;
+	height: 150px;
+	background:black
+}
+.logo img{
+	width:250px;
+	margin-left: 380px
+}
+.nav {
+	background: #A165C4
+}
+.nav ul{
+	list-style: none;
+	line-height: 40px;
+	margin-left:25%}
+.nav ul li{
+	display:inline-block;
+	margin-left:50px;}
+.nav ul li a{
+	text-decoration: none;
+	color:white;
+	display:block;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+	transition-duration: 0.4s;
+
+}
+.nav ul li a:hover{
+	color: black
+}
+.content {
+	background: #004572;
+}
+.content h1{
+	width: 1000px ;
+	height: 40px ;
+	text-align:center;
+	margin-top: 15px;
+	color: white	
+}
+.hop{
+	width:200px;
+	height:100px;
+	background: none;
+	float:left;
+	margin-left: 50px;
+	margin-top:20px;
+}
+.caihop{
+	color: white;
+	width: 800px;
+	height: 1.5px;
+	margin: 0 auto;
+	background: white;
+	font-family: 'Recursive', sans-serif;
+}
+.caihop1{
+	color: white;
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	background: none;
+	font-size:10px;
+	float: left;
+	font-family: 'Recursive', sans-serif;
+}
+#hugeimg img{
+	width:1000px;
+	margin-top: 40px;
+	float: left;
+}
+#hugeimg1 img{
+	width:333.3px;
+	float: left;
+		margin-top:20px;
+
+}
+#hugeimg2 img{
+	width:333.3px;
+	float: left;
+		margin-top:20px;
+
+}
+#hugeimg3 img{
+	width:333.3px;
+	float: left;
+		margin-top:20px;
+
+}
+.notice img{
+	width:1000px;
+	margin-top:50px;
+}
+.notice h4{
+	margin-top:20px;
+	float:left;
+	color:white;
+	font-size:25px
+}
+.spec{
+	margin-top:30px;
+}
+#icon img{
+	width:20px;
+	float:right;
+	margin-top:40px
+		
+}
+.footer{
+	background: white;
+	list-style: none;
+	margin-top:20px;
+	text-align:center;
+}
+.footer ul{
+	list-style: none;
+	line-height: 30px;
+	margin-left:0%}
+.footer ul li{
+	display:inline-block;
+}
+.footer ul li a{
+	text-decoration: none;
+	color:red;
+	display:block;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:15px;
+	transition-duration: 0.4s;}
+.footer ul li a:hover{
+	color: black}
+.hop-logo1{
+	margin-top:20px;
+	width:90px;
+	background:none;
+}
+.hop-logo1 img{
+	width:120px;
+}
+.hop-logo2 img{
+	width:80px;
+	float:left;
+}
+.hop-logo3 img{
+	width:50px;
+	float:right;
+}
+.hop-logo3 ul{
+	list-style: none;
+	line-height: 30px;
+	margin-top:-25%}
+.hop-logo3 ul li{
+	display:inline-block;
+	float:right;
+}
+.hop-logo3 ul li a{
+	text-decoration: none;
+	color:white;
+	display:block;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:15px;
+	transition-duration: 0.3s;}
+.hop-logo3 ul li a:hover{
+	color: black}
+.fb img{
+	width:50px;
+	margin-left:950%;
+}
+.fb{
+	width:90px;
+	margin-top:-7%}
